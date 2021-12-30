@@ -15,7 +15,7 @@
 	<!--This pom effectively acts as the parent to our sub-modules-->
 	<groupId>guru.springframework</groupId>
 	<artifactId>sfg-pet-clinic-conor</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>sfg-pet-clinic-conor</name>
 	<description>SFG Version of the Pet Clinic Project</description>
 
