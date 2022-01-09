@@ -2,9 +2,11 @@ package guru.springframework.sfgpetclinicconor.service.map;
 
 import guru.springframework.sfgpetclinicconor.model.Vet;
 import guru.springframework.sfgpetclinicconor.service.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Vet findById(Long id) {
